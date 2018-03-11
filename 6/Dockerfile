@@ -5,7 +5,8 @@ ENV APP_ROOT /var/www/site
 RUN apt-get clean -y
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-        nginx
+        nginx \
+        yarn
 
 EXPOSE 80
 
