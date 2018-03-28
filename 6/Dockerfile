@@ -8,7 +8,7 @@ RUN apt-get update && \
         nginx \
         yarn
 
-EXPOSE 80
+EXPOSE 80 443
 
 WORKDIR $APP_ROOT
 
